@@ -2,7 +2,9 @@
 In terminal:
 
 git clone https://github.com/Preston752/rf-waveform-analyzer
+
 cd rf-waveform-analyzer
+
 pip install -r requirements.txt
 
 **Requirements:**
