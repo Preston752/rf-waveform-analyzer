@@ -97,6 +97,7 @@ Encoding: Bit 0 = 0° phase (normal sine wave)
 Generates random bits.
 
 If bit = 0: transmit sin(2pi * 100kHz * t)
+
 If bit = 1: transmit -sin(2pi * 100kHz * t)
 
 Good for noise resistant communication
