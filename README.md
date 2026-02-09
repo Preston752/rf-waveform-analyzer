@@ -169,13 +169,13 @@ filtfilt() can be used for offline processing, but not in real-time systems. Rea
 
 So, this zero-phase filter will:
 
-filter forward (normal filter)
+- filter forward (normal filter)
 
-reverse signal
+- reverse signal
 
-filter backward (filter reversed signal)
+- filter backward (filter reversed signal)
 
-reverse back (to orginal time order)
+- reverse back (to orginal time order)
 
 ### 6. Radar Chirp and Spectrogram Generation
 
