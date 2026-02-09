@@ -227,6 +227,7 @@ python examples/07_pulse_compression.py
 ![Multiple targets](image-8.png)
 
 **Explanation:**
+
 Transmit long chirp (100 microseconds) -> good for detection but can't separate close targets
 
 Chirp travels to target and back -> the amount of time it takes to recieve the echo back will determine the target's distance from the chirp
