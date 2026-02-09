@@ -123,6 +123,7 @@ SNR = 10 dB: Signal power is 10x stronger than noise (moderate
 conditions)
 
 If SNR is higher = easier to identify signal
+
 If SNR is lower = harder to identify signal
 
 ### 5. Signal Filtering
