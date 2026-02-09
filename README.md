@@ -29,7 +29,7 @@ Generates a 100 kHz sine wave and analyzes it in both time and frequency domains
 
 **Run in terminal:**
 
-  python examples/01_basic_carrier.py
+- python examples/01_basic_carrier.py
 
 **What it demonstrates:**
 - RF signal generation
