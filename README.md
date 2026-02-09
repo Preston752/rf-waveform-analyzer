@@ -204,6 +204,7 @@ The chirp solves this by:
 Long duration/pulse (100 microseconds) -> high energy for detection
 
 Wide bandwidth (4 MHz) - > high resolution after pulse compression
+
 Matched filtering compresses it into a narrow spike (short pulse)
 
 ### 7. Pulse Compression (Matched Filtering)
