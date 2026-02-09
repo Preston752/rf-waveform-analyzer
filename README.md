@@ -38,6 +38,7 @@ python examples/01_basic_carrier.py
 ![Simple RF Carrier Signal](image.png)
 
 **Explanation:**
+
 This is an RF carrier that oscillates at a 100 kHz frequency. In
 the time domain, it appears as a repeating wave pattern. This wave
 can be modulated later to transmit information. Displays a wave for 1 millisecond. 100 oscillations (spikes - up and down) and each oscillation has 10 samples/data points so the sine wave looks
@@ -65,6 +66,7 @@ python examples/02_frequency_spectrum.py
 ![Frequency Spectrum](image-1.png)
 
 **Explanation:**
+
 FFT: tests my signal against all possible frequencies. At least 100x faster than DFT (Discrete Fourier Transform).
 
 https://arxiv.org/html/math/0302212/#:~:text=For%20a%20sample%20set%20of,of%20the%20Cooley%2DTukey%20algorithm.
@@ -86,6 +88,7 @@ python examples/03_bpsk_modulation.py
 ![Random bits](image-2.png)
 
 **Explanation:**
+
 Digital data is transmitted by shifting the phase of the carrier - when the bit changes, the waveform inverts.
 
 Encoding: Bit 0 = 0° phase (normal sine wave)
@@ -114,7 +117,8 @@ python examples/04_noise_analysis.py
 **Output:**
 ![Noise Analysis](image-3.png)
 
-**Explanation:** 
+**Explanation:**
+
 Real RF channels add noise that degrades signal quality. SNR determines detection capability. 
 
 In real-world RF systems, transmitted signals always encounter noise from various sources: thermal noise in receivers, atmospheric interference, competing transmitters, and electronic components.
@@ -141,7 +145,8 @@ python examples/05_filtering.py
 **Output:**
 ![Filtering](image-4.png)
 
-**Explanation:** 
+**Explanation:**
+
 Filtering removes unwanted frequency components while preserving the signal of interest.
 
 - 5th-order Butterworth lowpass filter
@@ -185,6 +190,7 @@ python examples/07_radar_spectrogram.py
 ![Radar Spectrogram](image-6.png)
 
 **Explanation:**
+
 A chirp is a signal whose frequency increases (or decreases) linearly over time. 
 
 This chirp will increase its frequency toward the end.
@@ -226,7 +232,7 @@ python examples/07_pulse_compression.py
 ![Compressed Pulse](image-7.png)
 ![Multiple targets](image-8.png)
 
-<u>Explanation</u>
+**Explanation:**
 
 Transmit long chirp (100 microseconds) -> good for detection but can't separate close targets
 
