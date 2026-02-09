@@ -57,7 +57,7 @@ Performs Fast Fourier Transform (FFT) to convert the time-domain carrier signal 
 
 **Run in terminal:**
 
-python examples/02_frequency_spectrum.py
+- python examples/02_frequency_spectrum.py
 
 **What it demonstrates:**
 - FFT implementation
@@ -79,7 +79,7 @@ Implements Binary Phase Shift Keying to encode digital data (0s and 1s) onto an 
 
 **Run in terminal:**
 
-          python examples/03_bpsk_modulation.py
+- python examples/03_bpsk_modulation.py
 
 **What it demonstrates:**
 - Digital modulation techniques
@@ -111,7 +111,7 @@ Adds Additive White Gaussian Noise (AWGN) to simulate real-world RF channels.
 
 **Run in terminal:**
 
-python examples/04_noise_analysis.py
+- python examples/04_noise_analysis.py
 
 **What it demonstrates:**
 - AWGN channel modeling
@@ -141,7 +141,7 @@ Implements a digital lowpass filter to remove high-frequency noise from the corr
 
 **Run in terminal:**
 
-python examples/05_filtering.py
+- python examples/05_filtering.py
 
 **What it demonstrates:**
 - Digital filter design (Butterworth lowpass filter)
