@@ -236,7 +236,7 @@ corresponds to 8 km range which is shown in image-8. Only the matched filter for
 
 image-8 also shows 2 other targets that have been detected.
 
-Bigger target = stronger return = taller spike
+Bigger target = stronger return = taller spike.
 Smaller target = weaker return = shorter spike
 
 https://www.youtube.com/watch?v=Ey-Z93BbQ0Y
