@@ -141,7 +141,7 @@ python examples/05_filtering.py
 **Output:**
 ![Filtering](image-4.png)
 
-**Key concept:** 
+**Explanation:** 
 Filtering removes unwanted frequency components while preserving the signal of interest.
 
 - 5th-order Butterworth lowpass filter
