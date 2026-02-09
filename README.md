@@ -226,7 +226,7 @@ python examples/07_pulse_compression.py
 ![Compressed Pulse](image-7.png)
 ![Multiple targets](image-8.png)
 
-**Explanation:**
+<u>Explanation</u>
 
 Transmit long chirp (100 microseconds) -> good for detection but can't separate close targets
 
