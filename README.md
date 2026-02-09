@@ -1,5 +1,6 @@
 ## Installation
 **In terminal:**
+
 git clone https://github.com/Preston752/rf-waveform-analyzer
 
 cd rf-waveform-analyzer
