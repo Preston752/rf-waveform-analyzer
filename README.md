@@ -35,7 +35,7 @@ python examples/01_basic_carrier.py
 - Time-domain visualization
 
 **Output:**
-[![Simple RF Carrier Signal](image.png)]
+![Simple RF Carrier Signal](image.png)
 
 **Explanation:**
 This is an RF carrier that oscillates at a 100 kHz frequency. In
