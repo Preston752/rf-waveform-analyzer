@@ -55,7 +55,8 @@ So, I can use at least 201 kHz but 1 MHZ (1000 kHz) seems to work.
 
 Performs Fast Fourier Transform (FFT) to convert the time-domain carrier signal into the frequency domain.
 
-Run in terminal:
+**Run in terminal:**
+
 python examples/02_frequency_spectrum.py
 
 **What it demonstrates:**
@@ -76,7 +77,8 @@ https://arxiv.org/html/math/0302212/#:~:text=For%20a%20sample%20set%20of,of%20th
 
 Implements Binary Phase Shift Keying to encode digital data (0s and 1s) onto an RF carrier.
 
-Run in terminal:
+**Run in terminal:**
+
 python examples/03_bpsk_modulation.py
 
 **What it demonstrates:**
@@ -107,7 +109,8 @@ Good for noise resistant communication
 
 Adds Additive White Gaussian Noise (AWGN) to simulate real-world RF channels.
 
-Run in terminal:
+**Run in terminal:**
+
 python examples/04_noise_analysis.py
 
 **What it demonstrates:**
@@ -136,7 +139,8 @@ If SNR is lower = harder to identify signal
 
 Implements a digital lowpass filter to remove high-frequency noise from the corrupted BPSK signal.
 
-Run in terminal:
+**Run in terminal:**
+
 python examples/05_filtering.py
 
 **What it demonstrates:**
@@ -177,10 +181,11 @@ reverse back (to orginal time order)
 
 Generates Linear Frequency Modulation (LFM) chirps used in modern radar systems.
 
-Run in terminal:
-python examples/06_radar_chirp.py
+**Run in terminal:**
 
-python examples/07_radar_spectrogram.py
+- python examples/06_radar_chirp.py
+
+- python examples/07_radar_spectrogram.py
 
 **What it demonstrates:**
 - Radar waveform synthesis
@@ -220,8 +225,9 @@ Matched filtering compresses it into a narrow spike (short pulse).
 
 Implements matched filtering to compress radar chirps and detect targets at specific ranges.
 
-Run in terminal:
-python examples/07_pulse_compression.py
+**Run in terminal:**
+
+- python examples/07_pulse_compression.py
 
 **What it demonstrates:**
 - Matched filtering algorithm
