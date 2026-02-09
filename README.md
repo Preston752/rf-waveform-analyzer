@@ -1,8 +1,8 @@
 ## Installation
 In terminal:
 
-git clone https://github.com/yourusername/RF
-cd RF
+git clone https://github.com/Preston752/rf-waveform-analyzer
+cd rf-waveform-analyzer
 pip install -r requirements.txt
 
 **Requirements:**
@@ -154,7 +154,6 @@ BPSK carrier is at 100 kHz. Frequencies below 150 kHz pass through at full stren
 Zero-phase filtering (filtfilt): Normal filters will introduce a phase distortion (time delay). Timing is very important for communication systems/radar, so this can create errors. 
 
 filtfilt() can be used for offline processing, but not in real-time systems. Real-time systems do not know the end of the signal which is needed to reverse filter the signal, so real-time systems will need to deal with time delay using another method.
-
 
 So, this zero-phase filter will:
 
