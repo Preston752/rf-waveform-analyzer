@@ -79,7 +79,7 @@ Implements Binary Phase Shift Keying to encode digital data (0s and 1s) onto an 
 
 **Run in terminal:**
 
-python examples/03_bpsk_modulation.py
+          python examples/03_bpsk_modulation.py
 
 **What it demonstrates:**
 - Digital modulation techniques
