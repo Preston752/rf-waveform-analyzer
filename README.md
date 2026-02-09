@@ -195,6 +195,7 @@ Why use chirps for radar?
 Radar systems need two conflicting things:
 
 High energy -> detect distant targets -> needs LONG pulses
+
 High resolution -> distinguish close targets -> needs SHORT pulses
 
 The chirp solves this by:
