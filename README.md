@@ -13,8 +13,6 @@ pip install -r requirements.txt
 - SciPy >= 1.10.0
 - Matplotlib >= 3.7.0
 
-## Examples
-
 # RF Waveform Generator and Analyzer
 
 A Python-based RF signal processing toolkit demonstrating modulation, filtering, and analysis techniques.
