@@ -249,7 +249,7 @@ Transmit long chirp (100 microseconds) -> good for detection but can't separate 
 
 Chirp travels to target and back -> the amount of time it takes to receive the echo back will determine the target's distance from the chirp
 
-Apply filter -> Cross-correlate received signal with transmitted chirp. The filter looks for the chirp pattern in the received signal. Produces a sharp spike when it finds a match.
+Apply filter -> Cross-correlate received signal with transmitted chirp (the received signal = the chirp in this example but the received signal can have noise also). The filter looks for the chirp pattern in the received signal. Produces a sharp spike when it finds a match.
 
 Detect target -> The position of the spike in time will tell us exactly how far the target is from the start of the chirp.
 
