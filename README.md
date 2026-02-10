@@ -94,7 +94,8 @@ Implements Binary Phase Shift Keying to encode digital data (0s and 1s) onto an 
 
 Digital data is transmitted by shifting the phase of the carrier - when the bit changes, the waveform inverts.
 
-Encoding: 
+Encoding:
+
 Bit 0 = 0° phase (normal sine wave)
 Bit 1 = 180° phase (inverted sine wave)
 
