@@ -97,6 +97,7 @@ Digital data is transmitted by shifting the phase of the carrier - when the bit 
 Encoding:
 
 Bit 0 = 0° phase (normal sine wave)
+
 Bit 1 = 180° phase (inverted sine wave)
 
 Generates random bits.
