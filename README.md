@@ -247,7 +247,7 @@ Implements matched filtering to compress radar chirps and detect targets at spec
 
 Transmit long chirp (100 microseconds) -> good for detection but can't separate close targets
 
-Chirp travels to target and back -> the amount of time it takes to recieve the echo back will determine the target's distance from the chirp
+Chirp travels to target and back -> the amount of time it takes to receive the echo back will determine the target's distance from the chirp
 
 Apply filter -> Cross-correlate received signal with transmitted chirp. The filter looks for the chirp pattern in the received signal. Produces a sharp spike when it finds a match.
 
